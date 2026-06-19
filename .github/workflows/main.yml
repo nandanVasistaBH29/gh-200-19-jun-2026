@@ -18,4 +18,9 @@ jobs:
           sudo apt-get install -y figlet
           figlet "GH-200 CoHack"
           figlet -f slant " Git hub actions"
+
+      - name: Run shell script
+        run:  |
+          chmod +x ./scripts/welcome.sh
+          bash ./scripts/welcome.sh
   
