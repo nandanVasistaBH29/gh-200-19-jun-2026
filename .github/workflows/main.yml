@@ -1,0 +1,9 @@
+name: GH-200 CoHack
+on: push
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say namaste
+        run: echo "hello namaste"
+  
