@@ -6,4 +6,10 @@ jobs:
     steps:
       - name: Say namaste
         run: echo "hello namaste"
+
+      - name: Checkout src code
+        uses: actions/checkout@v6
+
+      - name: list files
+        run: ls -la
   
