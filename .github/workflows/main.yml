@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate ASCII Art
         run:  |
-        sudo apt-get install -y figlet
-        figlet "GH-200 CoHack"
-        figlet -f slant " Git hub actions"
+          sudo apt-get install -y figlet
+          figlet "GH-200 CoHack"
+          figlet -f slant " Git hub actions"
   
